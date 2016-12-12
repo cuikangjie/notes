@@ -4,6 +4,8 @@ git clone https://github.com/cuikangjie/notes.git
 
 #####git添加
 git add . (添加本地所有文件)
+
+
 git add file
 
 #####提交
