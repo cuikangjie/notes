@@ -14,7 +14,7 @@ webStorage提供了localStorage 和 sessionStorage 两个api。
 > 本地存储，除非被显示的删除，否则一直存在。数据大小为5MB。
 
 * sessionStorage
-> 只在当前会话下有小，关闭浏览器或页面后被清除。数据大小为5MB。使用方法与localStorage。
+> 只在当前会话下存在，关闭浏览器或页面后被清除。数据大小为5MB。使用方法与localStorage。
 
 
 #### 使用
