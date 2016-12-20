@@ -58,9 +58,6 @@ api和使用方法与localStorage相同
 ---
 #### sessionStorage 、localStorage 和 cookie 之间的区别
 
-
-
-
 	cookie是网站为了标示用户身份而储存在用户本地终端（Client Side）上的数据（通常经过加密）。
 		cookie数据始终在同源的http请求中携带（即使不需要），记会在浏览器和服务器间来回传递。
 		sessionStorage和localStorage不会自动把数据发给服务器，仅在本地保存。
