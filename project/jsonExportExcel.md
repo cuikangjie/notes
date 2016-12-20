@@ -1,5 +1,9 @@
 # json导出excel
 
+>By kin
+
+>2016.12.10
+
 [原文地址](https://github.com/cuikangjie/notes/blob/master/project/jsonExportExcel.md)    [项目地址](https://github.com/cuikangjie/JsonExportExcel)
 
 #### 使用方法
