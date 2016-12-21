@@ -45,3 +45,6 @@
 >body.clientWidth ：body展示的宽度；表示body在浏览器内显示的区域宽度。
 
 >滚动条高度/宽度 ：如高度，可通过浏览器内页面可用高度 - body展示高度得出，即window.innerHeight - body.clientHeight。
+
+---
+[参考文档](http://www.cnblogs.com/polk6/archive/2016/01/03/5051935.html)
