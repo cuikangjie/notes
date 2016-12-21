@@ -4,7 +4,7 @@
 
 >2016.12.21
 
->[]()
+>[原文地址](https://github.com/cuikangjie/notes/blob/master/study/html5/screen%26window%26body%23width%26height.md)
 
 #### 屏幕信息
 ![screen](../img/screen.png)
