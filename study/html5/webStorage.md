@@ -1,6 +1,6 @@
 # Web Storage使用总结
 
->By kin
+>By [kin](https://github.com/cuikangjie/resume)
 
 >2016.12.20
 

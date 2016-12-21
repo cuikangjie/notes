@@ -1,6 +1,6 @@
-# json导出excel
+## json导出excel文件（支持中文）
 
->By kin
+>By [kin](https://github.com/cuikangjie/resume)
 
 >2016.12.10
 

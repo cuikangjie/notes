@@ -1,6 +1,6 @@
 #git设置代理
 
->By kin
+>By [kin](https://github.com/cuikangjie/resume)
 
 >2016.12.12
 

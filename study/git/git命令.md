@@ -1,6 +1,8 @@
 # git命令
-2016.12.12
 
+>By [kin](https://github.com/cuikangjie/resume)
+
+>2016.12.12
 
 ##### 克隆命令
 git clone https://github.com/cuikangjie/notes.git

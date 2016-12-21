@@ -1,5 +1,9 @@
 # 前端资料整理
 
+>By [kin](https://github.com/cuikangjie/resume)
+
+>2016.12.12
+
 [typescript手册中文版](https://oyyd.gitbooks.io/typescript-handbook-zh/content/index.html)
 
 [Markdown语法](http://www.appinn.com/markdown/#code)
