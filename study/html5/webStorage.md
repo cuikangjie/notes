@@ -1,9 +1,10 @@
 # Web Storage使用总结
 
->By [kin](https://github.com/cuikangjie/resume)
+>By [kin](https://cuikangjie.github.io/resume/)
 
 >2016.12.20
 
+>[原文地址](https://cuikangjie.github.io/blog-kin/study/html5/webStorage.html)
 
 
 

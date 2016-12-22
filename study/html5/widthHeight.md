@@ -1,10 +1,10 @@
-##获取屏幕、浏览器及页面的高度和宽度
+## 获取屏幕、浏览器及页面的高度和宽度
 
->By [kin](https://github.com/cuikangjie/resume)
+>By [kin](https://cuikangjie.github.io/resume/)
 
 >2016.12.21
 
->[原文地址](https://github.com/cuikangjie/notes/blob/master/study/html5/screen%26window%26body%23width%26height.md)
+>[原文地址](https://cuikangjie.github.io/blog-kin/study/html5/widthHeight.html)
 
 #### 屏幕信息
 ![screen](../img/screen.png)
