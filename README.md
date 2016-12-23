@@ -6,6 +6,8 @@
 
 ### 文章导航
 
+* [bootstrap表头固定](https://cuikangjie.github.io/blog-kin/study/html5/bootstrap-table.html)
+
 * [webStorage使用总结](https://cuikangjie.github.io/blog-kin/study/html5/webStorage.html)
 
 * [获取屏幕、浏览器及页面的高度和宽度](https://cuikangjie.github.io/blog-kin/study/html5/widthHeight.html)
