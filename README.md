@@ -1,8 +1,5 @@
 ### 笔记 ###
 
->By  [kin](https://cuikangjie.github.io/resume/)
-
->上海
 
 ### 文章导航
 
@@ -27,3 +24,7 @@
 * [前端面试(HTML&CSS)](https://cuikangjie.github.io/blog-kin//data-arrangement/web-interview-question.html)
 
 * [前端面试(JavaScript)](https://cuikangjie.github.io/blog-kin//data-arrangement/webQuestionJs.html)
+
+### 推荐
+
+ * [前端工程（基础篇）](https://github.com/fouber/blog/issues/10)
