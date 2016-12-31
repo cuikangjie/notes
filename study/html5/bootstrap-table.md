@@ -9,8 +9,8 @@
 
 
 效果
-![效果](../img/bootstrap-table.png
-  )
+
+![效果](../img/bootstrap-table.png)
 
 css：
 ```css
