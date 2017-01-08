@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><title>笔记 by kin</title><link rel="stylesheet" href="https://cuikangjie.github.io/blog-kin/lib/css/all.min.css"><link rel="icon" href="https://cuikangjie.github.io//blog-kin/lib/img/title.ico" type="image/x-icon"></head><body><div class="left-main"><div class="own-img"><a href="https://cuikangjie.github.io/resume/"><img src="https://cuikangjie.github.io//blog-kin/lib/img/kin.png"></a></div><div class="own-name"><a href="https://cuikangjie.github.io/resume/">kin</a></div><div class="own-main" id="num"></div><div class="own-addr" id="addr"></div><div class="own-share"><a href="https://github.com/cuikangjie" target="_blank"><img src="https://cuikangjie.github.io//blog-kin/lib/img/github.png"></a><a href="https://cuikangjie.github.io//blog-kin/"><img src="https://cuikangjie.github.io//blog-kin/lib/img/biji.png"></a><a href="http://www.cnblogs.com/kin-jie/"><img src="https://cuikangjie.github.io//blog-kin/lib/img/blog.png"></a><a href="http://www.jianshu.com/users/9fc42ce7c150/latest_articles"><img src="https://cuikangjie.github.io//blog-kin/lib/img/jian.png"></a><a href="mailto:cuikangjie_90h@126.com"><img src="https://cuikangjie.github.io//blog-kin/lib/img/email.png"></a><a href="javascript:window.print();"><img src="https://cuikangjie.github.io//blog-kin/lib/img/print.png"></a></div></div><div class="right-main"><h1 id="web-storage-">Web Storage使用总结</h1><blockquote><p>By <a href="https://cuikangjie.github.io/resume/">kin</a></p><p>2016.12.20</p><p><a href="https://cuikangjie.github.io/blog-kin/study/html5/webStorage.html">原文地址</a></p></blockquote><h4 id="-">浏览器支持情况</h4><p><img src="../img/webStorage.png" alt="webstorage"></p><h4 id="webstorage-">webStorage是什么？</h4><blockquote><p>Method of storing data locally like cookies, but for larger amounts of data (sessionStorage and localStorage, used to fall under HTML5).</p><p>一种保存数据在本地的方法像cookies一样，但用于存储大量的数据（HTML5标准下的sessionStorage 和 localStorage）</p></blockquote><p>webStorage提供了localStorage 和 sessionStorage 两个api。</p><ul><li><p>localStorage</p><blockquote><p>本地存储，除非被显示的删除，否则一直存在。数据大小为5MB。</p></blockquote></li><li><p>sessionStorage</p><blockquote><p>只在当前会话下存在，关闭浏览器或页面后被清除。数据大小为5MB。使用方法与localStorage。</p></blockquote></li></ul><h4 id="-">使用</h4><h5 id="localstorage-api">localStorage Api</h5><ul><li><p>setItem(key,value)</p></li><li><p>getItem(key)</p></li><li><p>removeItem(key)</p></li><li><p>clear()</p></li><li><p>length</p></li><li><p>key(n) 返回第n个key的名称</p></li></ul><pre><code class="lang-javascript">var ls=window.localStorage;
+
+// 保存数据
+// 数据以string类型的保存在本地
+ls.setItem(&#39;one&#39;,1);
+// 取出数据
+ls.getItem(&#39;one&#39;);//1
+// 删除某个键值对
+ls.removeItem(&#39;one&#39;);
+// 删除全部
+ls.clear();
+// 返回本地存储的个数
+ls.length;
+</code></pre><h5 id="sessionstorage-api">sessionStorage Api</h5><p>api和使用方法与localStorage相同</p><hr><h4 id="sessionstorage-localstorage-cookie-">sessionStorage 、localStorage 和 cookie 之间的区别</h4><pre><code>    cookie是网站为了标示用户身份而储存在用户本地终端（Client Side）上的数据（通常经过加密）。
+    cookie数据始终在同源的http请求中携带（即使不需要），记会在浏览器和服务器间来回传递。
+    sessionStorage和localStorage不会自动把数据发给服务器，仅在本地保存。
+
+    存储大小：
+        cookie数据大小不能超过4k。
+        sessionStorage和localStorage 虽然也有存储大小的限制，但比cookie大得多，可以达到5M或更大。
+
+    有期时间：
+        localStorage    存储持久数据，浏览器关闭后数据不丢失除非主动删除数据；
+        sessionStorage  数据在当前浏览器窗口关闭后自动删除。
+        cookie          设置的cookie过期时间之前一直有效，即使窗口或浏览器关闭
+</code></pre></div><script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script src="https://cuikangjie.github.io/blog-kin/lib/js/all.min.js"></script></body></html>
